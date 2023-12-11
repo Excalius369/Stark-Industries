@@ -1,0 +1,126 @@
+/* Style navigation bar */
+nav {
+    background: #333;
+    color: white;
+    padding: 10px; 
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  /* Header section */
+  header {
+    background-image: url('profile-bg.png');
+    background-size: cover;
+    color: white;
+    padding: 100px;
+    text-align: center; 
+  }
+  
+  header h1 {
+    font-size: 48px;  
+  }
+  
+  /* Section style */
+  section {
+    padding: 50px 100px;
+  }
+  
+  section h2 {
+    font-size: 32px;
+  } 
+  
+  /* Job/Degree containers */
+  section h3 {
+    background: #ebebeb;
+    padding: 10px 20px;
+    display: inline-width; 
+    font-size: 20px;
+  }
+  
+  /* Skill icons */
+  .skills img {
+    height: 65px;
+    float: left;
+    margin: 0 15px;   
+  }
+  
+  /* Contact form */
+  form input,textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0; 
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+  }
+  
+  button {
+    color: white;
+    background: #333;
+    padding: 14px 20px;
+    margin-top: 8px;
+    border: none;
+    cursor: pointer;
+  }
+  /* Custom font */
+body {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Profile photo */
+  header img {
+    border-radius: 50%;
+    border: 6px solid #ddd;
+    width: 200px;
+  }
+  
+  /* Two column layout */  
+  .col-left {
+    float:left;
+    width: 60%;
+  }
+  
+  .col-right {
+    float: right;
+    width: 35%; 
+  }
+  
+  /* Progress bars */
+  .progress {
+    background: #ddd;
+    border-radius: 3px;
+    margin-bottom: 20px; 
+  }
+  
+  .progress-bar {
+    background: black;
+    color: white;
+    text-align: center; 
+    height: 30px;
+  }
+  
+  /* Testimonials */
+  blockquote {
+    font-size: 18px;
+    font-style: italic;
+    margin: 25px 50px;
+    text-align: right;
+    border-left: 6px solid #ddd;  
+  }
+  
+  /* Background color pulse animation */
+  header {
+    animation: color-change 10s infinite;
+  }
+  
+  @keyframes color-change {
+    0%   {background: #45baff;}
+    25%  {background: #3385ff;}
+    50%  {background: #0057f2;}
+    75%  {background: #3385ff;}
+    100% {background: #45baff;}
+  }
